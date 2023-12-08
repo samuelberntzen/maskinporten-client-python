@@ -16,7 +16,13 @@ maskinporten_client
 Python library for instantiating a client which authenticates to Maskinporten using private/public key pair. 
 
 
-Example usage:
+
+Installation:
+
+.. code-block:: python
+    pip install git+https://github.com/samuelberntzen/maskinporten-client-python.git
+
+Usage:
 
 .. code-block:: python
 
