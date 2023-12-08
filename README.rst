@@ -13,6 +13,10 @@ maskinporten_client
         :target: https://maskinporten-client.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
+Python library for instantiating a client which authenticates to Maskinporten using private/public key pair. 
+
+
+Example usage:
 .. code-block:: python
 
 
