@@ -13,6 +13,40 @@ maskinporten_client
         :target: https://maskinporten-client.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
+# Example 
+```
+import requests
+
+from maskinporten_client.core.Client import MaskinportenClient
+from maskinporten_client.utils.loaders import load_private_key_from_json
+
+# Dev 
+private_key_json = load_private_key_from_json('private_key_dev.json') # Change path as needed
+token_url = "https://ver2.maskinporten.no/token" # dev
+audience = 'https://ver2.maskinporten.no/' # dev
+issuer = <dev-integration-id> # dev
+
+# Prod
+private_key_json = load_private_key_from_json('private_key_prod.json') # Change path as needed
+token_url = "https://maskinporten.no/token" # prod
+audience = 'https://maskinporten.no/' # prod
+issuer = <prod-integration-id> # porod
+# Common
+consumer_organization = <organization_id>
+scopes = ['ks:fiks'] # or other scope defined in Maskinporten
+
+
+maskinporten = MaskinportenClient(
+    token_url=token_url,
+    private_key_json = private_key_json,
+    scopes = scopes, 
+    audience = audience,
+    issuer = issuer,
+    consumer_organization = consumer_organization
+)
+
+maskinporten.get_access_token()
+```
 
 
 
