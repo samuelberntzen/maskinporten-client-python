@@ -14,7 +14,7 @@ maskinporten_client
         :alt: Documentation Status
 
 # Example 
-```
+.. code-block:: pthon
 import requests
 
 from maskinporten_client.core.Client import MaskinportenClient
@@ -46,7 +46,7 @@ maskinporten = MaskinportenClient(
 )
 
 maskinporten.get_access_token()
-```
+code . . .
 
 
 
