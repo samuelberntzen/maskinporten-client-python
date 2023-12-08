@@ -14,7 +14,6 @@ maskinporten_client
         :alt: Documentation Status
 
 .. code-block:: python
-:linenos:
 import requests
 
 from maskinporten_client.core.Client import MaskinportenClient
