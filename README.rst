@@ -13,7 +13,7 @@ maskinporten_client
         :target: https://maskinporten-client.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
-# Example 
+Example 
 .. code-block:: pthon
 import requests
 
