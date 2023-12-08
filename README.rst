@@ -14,8 +14,9 @@ maskinporten_client
         :alt: Documentation Status
 
 .. code-block:: python
+
+
     import requests
-    
     from maskinporten_client.core.Client import MaskinportenClient
     from maskinporten_client.utils.loaders import load_private_key_from_json
     
@@ -45,8 +46,6 @@ maskinporten_client
     )
     
     maskinporten.get_access_token()
-code . . .
-
 
 
 * Free software: MIT license
