@@ -19,7 +19,7 @@ Python library for instantiating a client which authenticates to Maskinporten us
 
 Installation:
 
-.. code-block:: python
+.. code-block:: bash
     pip install git+https://github.com/samuelberntzen/maskinporten-client-python.git
 
 Usage:
